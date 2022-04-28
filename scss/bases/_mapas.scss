@@ -1,0 +1,11 @@
+$footers: (
+    h6: 20px,
+);
+
+$h6:map-get($footers , h6);
+
+footer {
+    h4 {
+        font-size: $h4;
+    }
+}

@@ -1,0 +1,15 @@
+%secciones {
+    border: 1px solid black;
+    padding: 5px 5px;
+}
+
+.seccion1 {
+    background-color: white;
+    @extend %secciones;
+}
+
+.seccion2 {
+    background-color: gray;
+    @extend %secciones
+}
+
